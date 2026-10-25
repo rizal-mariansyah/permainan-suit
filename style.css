@@ -1,0 +1,39 @@
+/* /* mengatur semua halaman */
+body{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 40px 20px;
+    margin: 0;
+    background-color: rgb(224, 224, 229);
+}
+
+/* judul game */
+
+h1{
+    margin-bottom: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* teks petunjuk */
+ p {
+    color: rgb(62, 63, 63);
+
+}
+
+h2 {
+    font-size: 20px;
+    font-style: italic;
+}
+
+/* tombol */
+
+button{
+     background-color:rgb(93, 141, 225) ;
+    padding: 12px 20px;
+    margin:8px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer; 
+}
+ 
