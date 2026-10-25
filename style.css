@@ -28,12 +28,31 @@ h2 {
 /* tombol */
 
 button{
-     background-color:rgb(93, 141, 225) ;
-    padding: 12px 20px;
+    background-color:rgb(93, 141, 225) ;
+    width: 110px;
+    height: 100px;
     margin:8px;
     border: none;
     border-radius: 5px;
     font-size: 16px;
+    font-weight: bold;
     cursor: pointer; 
+    
+    display: inline-flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+    gap: 10px;
 }
+
+
  
+button :hover{
+    color: #1d4ed8;
+}
+
+/* hasil */
+#hasil{
+    margin-top: 30px;
+    color: rgb(45, 45, 43);
+}
